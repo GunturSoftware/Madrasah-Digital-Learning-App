@@ -1,0 +1,45 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            zoom:1;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 30px 0 rgba(0, 0, 0, 0.5);
+            
+        }
+
+        #content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 2em;
+        }
+
+        article {
+            border: 1.5px solid #ddd;
+            border-radius: 1em;
+            padding: 1em;
+            margin-top: 3.5em;
+        }
+
+        article h2 {
+            color: #3498db;
+        }
+button {
+    background: #3498db;
+    border: none;
+    border-radius: 2em;
+    color: white;
+    padding: 1em;
+    transition: all 0.5s ease;
+}
+button:hover {
+    background: #2f87bd;
+}
